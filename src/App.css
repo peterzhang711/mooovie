@@ -7,6 +7,56 @@
   pointer-events: none;
 }
 
+a {
+  color: grey;
+  padding:0 2rem;
+  text-decoration: none;
+  border-bottom: 2px grey solid;
+  text-align: center;
+  width: 100%;
+}
+
+.active {
+  color: blue;
+  border-bottom: 2px blue solid;
+}
+
+.logo {
+  padding-bottom: 50px;
+}
+
+.movie-lists {
+  margin-bottom: 20px;
+}
+.movieCard {
+  display: flex;
+  justify-content: center; 
+  max-width: 320px;
+  margin: 0 auto;
+}
+
+.movieCard__img {
+  max-width: 100px;
+}
+
+.movieCard__img img {
+  width: 100%;
+}
+
+.movieCard__info {
+  padding-left: 10px;
+}
+
+.search {
+  position: relative;
+  top: -80px;
+}
+.search input {
+  width: 320px;
+}
+
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
