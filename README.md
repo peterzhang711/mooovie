@@ -1,3 +1,16 @@
+Note from Peter
+
+1. run command 'npm install' under client folder level , which should build up node_modules for the project
+2. run command 'npm start' , then the project will run on localhost:3000
+
+Got basic function completed (show movies according to the id, and filter movies by key word)
+But there is still some small bug, when empty the search bar would not reload the movie info
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
